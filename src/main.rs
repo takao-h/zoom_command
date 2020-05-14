@@ -19,7 +19,6 @@ pub struct Opt {
 
 }
 
-
 lazy_static! {
     static ref THREADS: String = format!("{}", num_cpus::get());
 }
